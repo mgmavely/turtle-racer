@@ -30,9 +30,10 @@ while valid_race:
             valid_race = False
             break
 
-screen.bye()
+
 if winner == user_bet:
     print(f"Congrats! {winner} has won the race!")
 else:
     print(f"Sorry, {winner} beat {user_bet} to the finish line!")
 
+screen.exitonclick()
